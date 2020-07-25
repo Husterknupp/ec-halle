@@ -1,0 +1,8 @@
+blue: #0000ee / rgb(0,0,238)-->
+violet: #551a8b / rgb(85,26,139)-->
+contrast to ec.de green:
+#9cc064 (ec.de green)
+#c0649d (violet, complementary)
+#7ca736 (darker green, monochrome)
+#6fc064 (lighter green) #c0bb64 (brown-ish) - analogous
+#c0649d (pink-ish) #c07764 (brown-ish) #64c0ac (turquoise) - tetradic
