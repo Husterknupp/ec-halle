@@ -14,15 +14,23 @@ h1 {
     margin-bottom: 32px;
 }
 
-a {
+.email-link, .lkg-link {
     background-image: url("assets/green-background.svg");
     background-size: cover;
 }
 
-a:visited, a:link {
+.email-link:visited, .email-link:link, .lkg-link:visited, .lkg-link:link {
     color: inherit;
     text-decoration: none;
-    background-image: url("assets/darker-green-background.svg");
+    background-image: url("assets/green-background.svg");
+}
+
+a:visited, a:link {
+    color: inherit;
+}
+
+a, a:visited, a:link {
+    text-decoration: none;
 }
 
 .page {
@@ -35,11 +43,16 @@ a:visited, a:link {
     flex-direction: column;
 }
 
-.content {
+.main-content {
     text-align: center;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+}
+
+.vertical-on-mobile {
+    display: flex;
+    margin: 0 auto;
 }
 
 .contact {
@@ -74,4 +87,57 @@ a:visited, a:link {
 .logo {
     width: 1em;
     margin: 0 .2em -.2em 0;
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 4em;
+        margin-top: 10vh;
+        margin-bottom: 32px;
+    }
+
+    .lkg-link, .lkg-link:link, .lkg-link:visited {
+        background: initial;
+        text-decoration: initial;
+    }
+
+    .page {
+        font-size: initial;
+    }
+
+    .vertical-on-mobile {
+        display: block;
+    }
+
+    .vertical-on-mobile > div, .vertical-align--center > div {
+        margin: 4px auto;
+    }
+
+
+    .main-content > div {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 5fr 1fr;
+        grid-template-areas:
+        "l middle r";
+
+        margin-bottom: 1em;
+    }
+
+    .text--small {
+        font-size: small;
+        border-image: url(assets/border.svg) 5% fill;
+        padding: 1em 2em;
+        max-width: max-content;
+        grid-column: middle;
+        margin: .5em auto;
+    }
 }
