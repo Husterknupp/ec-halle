@@ -70,3 +70,8 @@ a:visited, a:link {
 .vertical-align--center > div {
     margin: .5em auto;
 }
+
+.logo {
+    width: 1em;
+    margin: 0 .2em -.2em 0;
+}
