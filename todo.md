@@ -2,9 +2,9 @@
 
 Not prioritized
 
- - [ ] Impressum & Datenschutz content
  - [ ] deploy
  - [ ] (domain) frame forwarding
+ - [ ] favicon
  
 Done
 
@@ -12,3 +12,4 @@ Done
  - [x] EC logo
  - [x] mobile
  - [x] mobile landscape (action buttons in a row)
+ - [x] Impressum & Datenschutz content
