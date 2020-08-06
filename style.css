@@ -8,18 +8,12 @@
     src: url("https://excalidraw.com/Cascadia.woff2");
 }
 
-h1 {
-    font-size: 5em;
-    margin-top: 23vh;
-    margin-bottom: 32px;
-}
-
-.email-link, .lkg-link {
+.email-link {
     background-image: url("assets/green-background.svg");
     background-size: cover;
 }
 
-.email-link:visited, .email-link:link, .lkg-link:visited, .lkg-link:link {
+.email-link:visited, .email-link:link {
     color: inherit;
     text-decoration: none;
     background-image: url("assets/green-background.svg");
@@ -34,8 +28,6 @@ a, a:visited, a:link {
 }
 
 .page {
-    font-size: calc(100vw / 54);
-    font-family: Cascadia, monospace;
     min-height: calc(100vh - 16px);
     border: 3px solid;
     box-sizing: border-box;
@@ -50,43 +42,67 @@ a, a:visited, a:link {
     flex-direction: column;
 }
 
-.vertical-on-mobile {
-    display: flex;
-    margin: 0 auto;
-}
-
 .contact {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
 
-.separator {
-    width: 99%;
-    margin: 0 auto;
-}
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-}
-
-.text--small {
-    font-size: .8em;
-    margin: 2em;
-}
-
 .vertical-align--center {
     margin: auto;
-}
-
-.vertical-align--center > div {
-    margin: .5em auto;
 }
 
 .logo {
     width: 1em;
     margin: 0 .2em -.2em 0;
+}
+
+@media (min-width: 601px) {
+    h1 {
+        font-size: 5em;
+        margin-top: 23vh;
+        margin-bottom: 32px;
+    }
+
+    .lkg-link {
+        background-image: url("assets/green-background.svg");
+        background-size: cover;
+    }
+
+    .lkg-link:visited, .lkg-link:link {
+        color: inherit;
+        text-decoration: none;
+        background-image: url("assets/green-background.svg");
+    }
+
+    .page--font {
+        font-size: calc(100vw / 54);
+        font-family: Cascadia, monospace;
+    }
+
+    .vertical-on-mobile {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .text--small {
+        font-size: .8em;
+        margin: 2em;
+    }
+
+    .text {
+        margin: .5em auto;
+    }
+
+    .separator {
+        width: 99%;
+        margin: 0 auto;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 @media (max-width: 600px) {
@@ -101,25 +117,29 @@ a, a:visited, a:link {
         text-decoration: initial;
     }
 
-    .page {
+    .page--font {
         font-size: initial;
+        font-family: Cascadia, monospace;
     }
 
     .vertical-on-mobile {
         display: block;
     }
 
-    .vertical-on-mobile > div, .vertical-align--center > div {
+    .text {
         margin: 4px auto;
     }
 
-
-    .main-content > div {
+    .middle-column--on-mobile > div {
         max-width: 80%;
         margin: 0 auto;
     }
 
     .hide-on-mobile {
+        display: none;
+    }
+
+    .separator {
         display: none;
     }
 
