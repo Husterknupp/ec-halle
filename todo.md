@@ -2,12 +2,12 @@
 
 Not prioritized
 
- - [ ] deploy
  - [ ] (domain) frame forwarding
- - [ ] favicon
  
 Done
 
+ - [x] deploy
+ - [x] favicon
  - [x] link highlight: svg of green line (excalidraw) as background image
  - [x] EC logo
  - [x] mobile
