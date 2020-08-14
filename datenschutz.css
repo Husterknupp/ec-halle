@@ -2,6 +2,11 @@
     margin: 0 1em;
 }
 
+.ampersand {
+    width: 1em;
+    margin-right: .1em
+}
+
 .inline {
     display: inline-block
 }
