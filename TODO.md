@@ -2,7 +2,7 @@
 
 Not prioritized
 
- - [ ] icon for share links: https://github.com/Husterknupp/2020-oster-squash/commit/c529e2e9a62d847a1bd0d55dc26445c8f066b63c
+ - [ ] icon for share links on android: https://github.com/Husterknupp/2020-oster-squash/commit/c529e2e9a62d847a1bd0d55dc26445c8f066b63c
  
 Done
 

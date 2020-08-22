@@ -1,11 +1,10 @@
 @font-face {
-    font-family: "Virgil";
-    src: url("https://excalidraw.com/FG_Virgil.woff2");
+    font-family: "Cascadia";
+    src: url("assets/CascadiaMono.woff2");
 }
 
-@font-face {
-    font-family: "Cascadia";
-    src: url("https://excalidraw.com/Cascadia.woff2");
+h1, h2, h3 {
+    font-weight: 500;
 }
 
 .email-link {
