@@ -16,3 +16,7 @@
     font-size: .8em;
     margin: .2em .2em .2em .2em;
 }
+
+.nobreak {
+    white-space: nowrap
+}
