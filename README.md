@@ -2,6 +2,10 @@
 
 Repo for ec-halle.de website
 
+## GitHub Pages
+
+Commits to `main` branch will trigger a page rebuild.
+
 ## Installation
 
 Download the repository
