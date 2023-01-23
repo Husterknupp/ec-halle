@@ -1,3 +1,16 @@
+.back-arrow {
+    font-size: 2em;
+    margin-left: 12px;
+    margin-bottom: 0;
+}
+
+.header {
+    font-size: 3em;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 4px
+}
+
 .impress {
     margin: 0 1em;
 }
